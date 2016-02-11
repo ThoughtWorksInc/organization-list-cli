@@ -13,7 +13,7 @@ class Main {
 			MicrobuilderOutgoingProxyFactory.outgoingProxy_com_thoughtworks_microbuilder_tutorial_githubSdk_rpc_IOrganizationService(outgoingJsonService);
 		}
 
-		// Read GITHUB_USERNAME environment variables
+		// Read the GITHUB_USERNAME environment variables
 		var username = Sys.environment()["GITHUB_USERNAME"];
 
 		// Send a request to Github API via organization service
