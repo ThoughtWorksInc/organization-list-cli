@@ -1,0 +1,3 @@
+-lib github-sdk:1.0.10
+-lib hxssl:git
+-x Main
